@@ -1,0 +1,77 @@
+.headerVideo {
+  position: relative;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+overlay {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+  
+  p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+  .renk {
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+    
+.renk:hover {
+    background: #fc00ff;
+}
+
+.button{
+  border-radius: 5px;
+
+}
+.button:hover {
+  background: turquoise
+}
+
+.main {
+  height: 90vh;
+  background: #fff;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gridStyle{
+
+    color: white;
+    background-color: rgb(221, 88, 38);
+    width: 325px;
+    height: 400px;
+    position: absolute;
+    touch-action: none;
+    transform: translate(10px, 10px);
+}
+.mainStyle{
+
+  color:black;
+  background-color: rgb(221, 88, 38);
+  width: 1200px;
+  height: 1200px;
+  position: absolute;
+  touch-action: none;
+  transform: translate(10px, 10px);
+
+}
